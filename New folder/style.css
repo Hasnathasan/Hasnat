@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+    text-align: center;
+    background-color: teal;
+    padding: 20px;
+   
+}
+.navbar .anchor-tag{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.anchor-tag a:hover{
+    
+    background-color: #ddd;
+    color: rgb(77, 73, 73);
+    
+}
+.navbar h1{
+    margin-top: 27px;
+    color: white;
+}
+.navbar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.aboutme-container{
+    text-align: center;
+}
+.anchor-tag a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+}
+.img-tag img{
+    width: 150px;
+    margin-left: 800px;
+    
+}
+.img-tag2 img{
+    width: 150px;
+    margin-left: -800px;
+    margin-bottom: 30px;
+}
+.aboutme-container h1{
+    font-size: 40px;
+    margin: 15px 15px 0 15px;
+    text-transform:uppercase;
+}
+.aboutme-container p{
+    font-size: 20px;
+    margin-bottom: 15px ;
+}
+.aboutme-container img:hover{
+    animation: hasnat 1s forwards;
+    transition: 1s;
+}
+@keyframes hasnat {
+    to{
+        transform: rotate(360deg);
+        
+    }
+}
+hr{
+    width: 500px;
+    margin: 0 auto;
+}
+#img-id{
+    width: 100%;
+    height: 400px;
+    background-color: teal;
+    display: grid;
+    place-items: center;
+ 
+}
+
+#img-id img{
+    width: 300px;
+    border-radius: 50%;
+}
+#h1-h1{
+    height: 100px;
+    background-color: teal;
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+#h1-h1 h1{
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+#h1-h1 hr{
+    width: 200px;
+    border: 1px dotted ;
+}
+.p-content{
+    width: 100%;
+    height: 400px;
+    
+    box-sizing: border-box;
+    background-color: teal;
+    border-left: 1px solid white;
+    text-align: justify;
+    padding: 10px;
+    float: left;
+    display: grid;
+    place-items: center;
+
+}
+.div-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
